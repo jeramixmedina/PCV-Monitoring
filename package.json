@@ -1,0 +1,23 @@
+{
+  "name": "pcv-monitoring",
+  "version": "0.1.0",
+  "description": "Petty Cash Voucher Monitoring System (Electron + SQLite)",
+  "main": "src/main/main.js",
+  "scripts": {
+    "dev": "electron .",
+    "start": "electron .",
+    "lint": "echo \"No linter configured yet\"",
+    "test": "echo \"No tests configured yet\""
+  },
+  "keywords": [
+    "electron",
+    "sqlite",
+    "petty-cash",
+    "voucher"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^37.0.0"
+  }
+}
