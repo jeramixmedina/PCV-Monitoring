@@ -1,0 +1,23 @@
+{
+  "name": "pcv-monitoring",
+  "version": "1.0.0",
+  "description": "Offline-first Petty Cash Voucher Monitoring System",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "electron .",
+    "start": "electron .",
+    "db:init": "node scripts/init-db.js",
+    "test": "echo \"No automated tests configured\""
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jspdf": "^2.5.2",
+    "print-js": "^1.6.0",
+    "sqlite3": "^5.1.7",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "electron": "^37.0.0"
+  }
+}
